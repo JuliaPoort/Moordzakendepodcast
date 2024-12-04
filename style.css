@@ -1,0 +1,43 @@
+body {
+    background-color: blanchedalmond;
+    
+}
+h1 {
+    color: rgb(226, 43, 43);
+    font-size:xx-large; 
+    font-weight: 600;
+}
+body h1 {
+    font-family: "dancing script" , cursive;
+}
+img { 
+
+    background-color: rgb(222, 137, 179);
+    padding: 2em;
+    width: 5em;
+    display: block;
+    
+    
+}
+img:hover { 
+    transform: rotate(45deg);
+    background-color: black;
+}
+a { 
+    background-color: darkred; 
+    padding: 0,5em;
+    border-radius: 0,2em;
+    text-decoration: white;
+    margin-right: 2em;
+    color: white;
+}
+a:hover {
+    background: red;
+}
+a:focus { 
+    border: 2px solid black;
+}
+ul {
+    display :flex ;
+    list-style-type: none;
+}
